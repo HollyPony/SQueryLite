@@ -5,9 +5,7 @@ One Sql browser to rule them all.
 ----------
 ## Features
 
-> **Note:**
-
-> - This app is under construction.
+> **Note:** This app is under construction.
 
 #### Urgent Needs :
 
