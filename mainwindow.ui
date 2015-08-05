@@ -78,6 +78,7 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
+   <addaction name="actionQuick_connection"/>
    <addaction name="actionConnect"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
@@ -139,6 +140,11 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionQuick_connection">
+   <property name="text">
+    <string>Quick connection</string>
    </property>
   </action>
  </widget>

@@ -18,6 +18,8 @@ public:
 private slots:
     void on_actionConnect_triggered();
 
+    void on_actionQuick_connection_triggered();
+
 private:
     Ui::MainWindow *ui;
 };
