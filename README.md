@@ -9,6 +9,19 @@ One Sql browser to rule them all.
 
 > - This app is under construction.
 
+#### Urgent Needs :
+
+* **Finished UI templates** and develop them
+* **Manage servers connections**
+* **Driver management** 
+* **Custom requests by DB**
+
+#### For the future :
+
+* **CMakeList build system** ... because
+* **Internal Api**
+* **Plugins management**
+
 -------------
 ### Development
 
