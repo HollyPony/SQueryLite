@@ -38,14 +38,14 @@
         <enum>QLayout::SetMinimumSize</enum>
        </property>
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QToolButton" name="toolButton">
          <property name="text">
           <string>Add</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QToolButton" name="toolButton_2">
          <property name="text">
           <string>Del</string>
          </property>
@@ -67,7 +67,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QListView" name="listView"/>
+      <widget class="QListView" name="connectionListView"/>
      </item>
     </layout>
    </item>
