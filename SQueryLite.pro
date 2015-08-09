@@ -13,15 +13,29 @@ TEMPLATE = app
 
 CONFIG += c++11
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    connectiondialog.cpp
+SOURCES += \
+    src/main.cpp\
+    src/mainwindow.cpp \
+    src/basedblistmodel.cpp \
+    src/propertiesdialog.cpp \
+    src/drivers/mongodb.cpp \
+    src/drivers/genericdbitem.cpp
 
-HEADERS  += mainwindow.h \
-    connectiondialog.h
+HEADERS  += \
+    src/mainwindow.h \
+    src/basedblistmodel.h \
+    src/propertiesdialog.h \
+    src/drivers/genericdbitem.h \
+    src/drivers/generictable.h \
+    src/drivers/genericcolumn.h \
+    src/drivers/enumdrivers.h \
+    src/drivers/genericserver.h \
+    src/drivers/genericdatabase.h \
+    src/drivers/mongodb.h
 
-FORMS    += mainwindow.ui \
-    connectiondialog.ui
+FORMS    += \
+    src/mainwindow.ui \
+    src/propertiesdialog.ui
 
 macx: LIBS += -L$$PWD/drivers/mongo/lib/ -lmongoclient \
     -L/usr/local/lib \

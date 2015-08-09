@@ -21,7 +21,7 @@
        <enum>QTabWidget::North</enum>
       </property>
       <property name="currentIndex">
-       <number>4</number>
+       <number>0</number>
       </property>
       <property name="elideMode">
        <enum>Qt::ElideRight</enum>
@@ -78,7 +78,6 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
-   <addaction name="actionQuick_connection"/>
    <addaction name="actionConnect"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
@@ -102,13 +101,14 @@
       </layout>
      </item>
      <item>
-      <widget class="QTreeWidget" name="treeWidget">
-       <column>
-        <property name="text">
-         <string notr="true">1</string>
-        </property>
-       </column>
+      <widget class="QTreeView" name="treeView">
+       <property name="headerHidden">
+        <bool>true</bool>
+       </property>
       </widget>
+     </item>
+     <item>
+      <widget class="QListView" name="listView"/>
      </item>
     </layout>
    </widget>
@@ -136,15 +136,10 @@
   </widget>
   <action name="actionConnect">
    <property name="text">
-    <string>Connect</string>
+    <string>Add connection</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+S</string>
-   </property>
-  </action>
-  <action name="actionQuick_connection">
-   <property name="text">
-    <string>Quick connection</string>
    </property>
   </action>
  </widget>

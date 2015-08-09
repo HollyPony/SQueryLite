@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+class BaseDbListModel;
+
 namespace Ui {
 class MainWindow;
 }
@@ -18,10 +20,10 @@ public:
 private slots:
     void on_actionConnect_triggered();
 
-    void on_actionQuick_connection_triggered();
-
 private:
     Ui::MainWindow *ui;
+
+    BaseDbListModel *_baseDbListModel;
 };
 
 #endif // MAINWINDOW_H
